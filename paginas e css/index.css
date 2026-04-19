@@ -37,7 +37,7 @@ a:hover{
 /* Css da seção do video */
 .video-inicio {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 100vh;
     overflow: hidden;
     display: flex;
