@@ -1,0 +1,34 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    color: #fff;
+    background-color: #22314f;
+}
+
+.navbar {
+    display: flex;             /* Coloca os itens um ao lado do outro */
+    align-items: flex-end;       /* Alinha a logo e o texto verticalmente no meio */
+    padding: 10px 30px;        /* Espaçamento interno */
+}
+
+.logo {
+    height: 80px;              /* Ajuste o tamanho da sua logo aqui */
+    margin-right: 40px;        /* Dá um espaço entre a logo e o primeiro botão */
+}
+
+.menu {
+    display: flex;             /* Também faz os botões ficarem em linha */
+    gap: 20px;                 /* Cria o espaço entre cada botão automaticamente */
+}
+
+/* Estilo para os botões ficarem parecidos com os do seu print */
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 70px;
+
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+}
+a:hover{
+    color:yellow
+}
